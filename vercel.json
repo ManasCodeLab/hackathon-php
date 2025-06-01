@@ -3,7 +3,12 @@
   "builds": [
     {
       "src": "api/**/*.php",
-      "use": "vercel-php@0.7.3"
+      "use": "vercel-php@0.7.3",
+      "config": {
+        "php": {
+          "extensions": ["mongodb", "curl", "openssl"]
+        }
+      }
     },
     {
       "src": "public/**",
