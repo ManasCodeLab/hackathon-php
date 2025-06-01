@@ -1,7 +1,12 @@
 {
   "functions": {
     "api/*.php": {
-      "runtime": "vercel-php@0.7.3"
+      "runtime": "vercel-php@0.7.3",
+      "config": {
+        "php": {
+          "extensions": ["mongodb", "curl", "openssl", "json", "mbstring", "fileinfo"]
+        }
+      }
     }
   },
   "routes": [
