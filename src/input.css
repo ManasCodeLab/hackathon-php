@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.font-heading { 
+    font-family: 'Poppins', 'Inter', sans-serif; 
+}
+
+.font-mono { 
+    font-family: 'JetBrains Mono', monospace; 
+} 

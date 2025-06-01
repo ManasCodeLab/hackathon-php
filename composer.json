@@ -1,0 +1,16 @@
+{
+    "name": "codegenx-hackathon",
+    "description": "CodeGenX Hackathon Website",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "mongodb/mongodb": "^1.12",
+        "firebase/php-jwt": "^6.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+} 
