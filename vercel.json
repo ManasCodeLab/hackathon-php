@@ -8,9 +8,5 @@
   "routes": [
     { "src": "/", "dest": "/api/index.php" },
     { "src": "/(.*)", "dest": "/api/$1" }
-  ],
-  "env": {
-    "PHP_EXTENSIONS": "mongodb,curl,openssl,json,mbstring,fileinfo",
-    "PHP_VERSION": "8.0"
-  }
+  ]
 } 
